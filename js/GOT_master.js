@@ -37,8 +37,9 @@
 	function animateBanner() {
 		const offSet = 600;
 
-		totalOffest = this.dataset.offset * offSet + "px";
-		banners.style.right = totalOffest;
+		totalOffest = this.dataset.offset * offSet// + "px";
+		//banners.style.right = totalOffest;
+		TweenMax.to(banners, 0.8, { right: totalOffest });
 	}
 
 	shields.forEach(shield => shield.addEventListener('click', animateBanner));
