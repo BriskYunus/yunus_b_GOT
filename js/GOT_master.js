@@ -49,6 +49,8 @@
 		video.play();
 	}
 
+	shields.forEach(shield => shield.addEventListener('click', showLightbox));
+
 	function hideLightbox() {
 		lightbox.classList.remove('show-lightbox');
 		// rewind the video to the beginning
