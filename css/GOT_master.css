@@ -36,7 +36,7 @@ main {
 	overflow:hidden;
 }
 
-#houseImages { position:relative; width:4000px; /*transition: all .5s;*/ }
+#houseImages { position:relative; width:5400px; /*transition: all .5s;*/ }
 #houseImages img { float:left; }
 
 #bottomNav { margin-top:30px; }
@@ -66,20 +66,29 @@ main {
 .stark { background-position:0px -54px; }
 .stark:hover { background-position:0px 0px; }
 
-.baratheon { background-position:-50.5px -54px; }
-.baratheon:hover { background-position:-51px 0px; }
+.baratheon { background-position:-51.7px -54px; }
+.baratheon:hover { background-position:-51.7px 0px; }
 
-.lannister { background-position:-101px -54px; }
-.lannister:hover { background-position:-101px 0px; }
+.lannister { background-position:-102.9px -54px; }
+.lannister:hover { background-position:-102.9px 0px; }
 
-.tully { background-position:-152px -54px; }
-.tully:hover { background-position:-152px 0px; }
+.tully { background-position:-153.8px -54px; }
+.tully:hover { background-position:-153.8px 0px; }
 
-.greyjoy { background-position:-202px -54px; }
-.greyjoy:hover { background-position:-202px 0px; }
+.greyjoy { background-position:-203.8px -54px; }
+.greyjoy:hover { background-position:-203.8px 0px; }
 
-.arryn { background-position:-253px -54px; }
-.arryn:hover { background-position:-253px 0px; }
+.arryn { background-position:-254.8px -54px; }
+.arryn:hover { background-position:-254.8px 0px; }
+
+.frey { background-position:-304.8px -54px; }
+.frey:hover { background-position:-304.8px 0px; }
+
+.targaryen { background-position:-354.8px -54px; }
+.targaryen:hover { background-position:-354.8px 0px; }
+
+.tyrell { background-position:-405.8px -54px; }
+.tyrell:hover { background-position:-405.8px 0px; }
 /* ----- end image sprite ----- */
 
 /* ----- classes for transitions ----- */
@@ -130,6 +139,13 @@ video {
 	color: white;
 	font-size: 1.5rem;
 	margin: 20px 0 auto;
+	margin: 0 auto;
+	font-size: 20px;
+	line-height: 30px;
+	text-align: justify;
+	letter-spacing: 3px;
+	width: 45%;
+	margin-top: 20px;
 }
 
 .house-name
